@@ -42,6 +42,6 @@ var newStudent={
   'cognome' :  prompt('inserisci il cognome del nuovo studente'),
   'eta' :  parseInt(prompt("inserisci l'eta del nuovo studente"))
 };
-studenti.push(newStudent);
 
+studenti.push(newStudent);
 console.log(studenti)
